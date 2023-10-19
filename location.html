@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location - LVinnamon</title>
+    <link rel="icon" href="img/LVinnamon-logo.png">
+    <link rel="stylesheet" href="css/ystyle.css">
+    <link rel="stylesheet" href="css/ymenu.css">
+    <link rel="stylesheet" href="css/yresponsive.css">
+</head>
+
+<body>
+
+    <div class="hidden-notifcation" id="notification">
+        <p id="notification-text"></p>
+    </div>
+
+    <div class="dropDown-product">
+        <ul>
+            <li id="cinnamon-svg"><img src="img/icons/cinnamon-roll.svg" alt="original-icon"><a href="cinnamon-original.html">Original</a></li>
+            <li id="cinnamon-svg" ><img src="img/icons/cinnamon-roll.svg" alt="glazed-icon"><a href="cinnamon-glazed.html">Glazed Sugar</a></li>
+            <li id="cinnamon-svg" ><img src="img/icons/cinnamon-roll.svg" alt="chocolate-icon"><a href="cinnamon-chocolate.html">Chocolate</a></li>
+            <li id="cinnamon-svg" ><img src="img/icons/tea.svg" alt="tea-icon"><a href="beverage-tea.html">Tea</a></li>
+            <li id="cinnamon-svg" ><img src="img/icons/smoothie.svg" alt="smoothie-icon"><a href="beverage-smoothie.html">Smoothie</a></li>
+        </ul>
+    </div>
+
+    <div id="register-list">
+        <div class="register-header">
+            <h1>IDENTIFICATION</h1>
+        </div>
+        <div class="register-header">
+            <h2>I ALREADY HAVE ACCOUNT</h2>
+        </div>
+        <form action="" class="loginForm">
+            <input type="text" Email="" id="text-input" placeholder="Email">
+            <input type="password" Password="" id="text-input" placeholder="Password"><br>
+            <input type="submit" value="Sign In" id="submitBtn" placeholder="Sign In">
+        </form>
+        <div class="register-header">
+            <h2>I DON'T HAVE AN ACCOUNT</h2>
+        </div>
+        <form action="" class="regisForm">
+            <input type="text" name="" id="text-input" placeholder="Name">
+            <input type="text" Email="" id="text-input" placeholder="Email">
+            <input type="password" Password="" id="text-input" placeholder="Password"><br>
+            <input type="submit" value="Sign Up" id="submitBtn" placeholder="Sign Up">
+        </form>
+    </div>
+    
+    <div class="dropDown-burger">
+        <ul>
+            <li>
+                <a id="nav-product">Product</a>
+                <ul class="dropDown-details">
+                    <li><a href="ProductPage/cinnamon-original.html">Original</a></li>
+                    <li><a href="ProductPage/cinnamon-glazed.html">Glazed Sugar</a></li>
+                    <li><a href="ProductPage/cinnamon-chocolate.html">Chocolate</a></li>
+                    <li><a href="ProductPage/beverage-tea.html">Tea</a></li>
+                    <li><a href="ProductPage/beverage-smoothie">Smoothie</a></li>
+                </ul>
+            </li>
+            <li><a href="location.html">Locate Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a id="register-trigger">Register</a></li>
+        </ul>
+    </div>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a id="nav-product">Product</a>
+            <a href="location.html">Locate Us</a>
+        </div>
+        <div class="navbar-logo">
+            <a href="home.html">
+                <img src="img/LVinnamon-headline.png" alt="Logo">
+            </a>
+        </div>
+        <div class="navbar-right">
+            <a href="aboutus.html">About Us</a>
+            <a id="register-trigger">Register</a>
+        </div>
+        <div class="burger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div class="content">
+        <main>
+            <div>
+                <div class="container-iframe">
+                    <div class="map">
+                        <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3119905930807!2d106.64914060000002!3d-6.222529100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb20a9906e13%3A0xf75c5296d0a385e4!2sBinus%20University%20Kampus%20Alam%20Sutera!5e0!3m2!1sen!2sid!4v1686971367435!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+                    </div>
+                    <div class="map-caption">
+                        <p>
+                            <h1>Business hours</h1>
+                            <p>07:30 A.M. - 05:00 p.m.</p>
+                            <h1>Meet us at</h1>
+                            <p>Jl. Jalur Sutera Bar. No.Kav. 21, RT.001/RW.004, Panunggangan, Kec. Pinang, Kota Tangerang, Banten 15143</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="line"></div>
+    <footer class="footer">
+        <p id="foot">Copyright &copy; 2501983023 - Jevaldin Yohanan Gultom @LVinnamon. All rights reserved.</p>
+        <p id="foot">Copyright &copy; 2501992583 - Yuan Stefanus Tampubolon @LVinnamon. All rights reserved.</p>
+        <p id="foot">Copyright &copy; 2501971295 - Febrian Grady Santoso @LVinnamon. All rights reserved.</p>
+        <p id="foot">Contact us at (+62) 85824100880</p>
+    </footer>
+</body>
+<script src="js/jquery-3.7.0.min.js"></script>
+<script src="js/zresponsive.js"></script>
+<script src="js/zscript.js"></script>
+</html>
